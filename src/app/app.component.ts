@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { WeatherService } from "./core/services/weather.service";
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'weatherForCarebox';
+  public readonly weatherData$ = this.weatherService.getWeatherData();
+  constructor(private readonly weatherService: WeatherService) {}
 }
