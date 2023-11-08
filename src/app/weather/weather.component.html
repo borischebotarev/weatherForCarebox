@@ -1,7 +1,28 @@
-<div class="weather" *ngIf="weatherData$ | async as weatherData; else loading">
-  {{weatherData | json}}
-</div>
-<ng-template #loading>
-  <app-spinner></app-spinner>
-</ng-template>
+<div class="weather">
 
+  <ng-container *ngIf="loading$ | async; else data">
+    <app-spinner></app-spinner>
+  </ng-container>
+
+  <ng-template #data>
+    <ng-container *ngIf="data$ | async as data">
+      <ul class="weather__list">
+        <li class="weather__item" *ngFor="let day of data">
+          Date: {{day.time | date : 'shortDate'}}
+          Temperature: {{day.values.temperatureAvg}} C
+          Wind speed: {{day.values.windSpeedAvg}} m/s
+          Weather: {{day.values.weatherCodeMax | getWeatherText}}
+        </li>
+      </ul>
+    </ng-container>
+
+    <ng-container *ngIf="errors$ | async as errors">
+      <ul>
+        <li *ngFor="let errorObj of errors | keyvalue">
+          {{errorObj.key}}: {{errorObj.value}}
+        </li>
+      </ul>
+      <button class="weather__retry" type="button" (click)="retry()">Retry</button>
+    </ng-container>
+  </ng-template>
+</div>
