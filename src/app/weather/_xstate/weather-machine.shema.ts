@@ -1,4 +1,16 @@
-
+export interface Weather {
+  location: {
+    lat: number;
+    lon: number;
+    name: string;
+    type: string;
+  },
+  timelines: {
+    daily: WeatherItem[],
+    hourly: WeatherItem[],
+    minutely: WeatherItem[]
+  }
+}
 export interface WeatherItem {
   time: string,
   values: WeatherValues
@@ -14,7 +26,9 @@ export interface WeatherValues {
 }
 
 export interface WeatherContext {
-  data: WeatherItem[];
+  location: string;
+  dataDaily: WeatherItem[];
+  dataHourly: WeatherItem[];
   errors: Errors;
 }
 

@@ -1,0 +1,49 @@
+@import "src/assets/styles/variables";
+
+.weather {
+  &__location {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  &__list {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    @include media-tablet-down() {
+      flex-direction: column;
+    }
+  }
+
+  &__item {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border: 1px solid $blue;
+    border-radius: 5px;
+    transition: box-shadow 0.2s linear;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    }
+  }
+
+  &__date {
+    font-weight: 600;
+  }
+
+  &__small {
+    font-size: 12px;
+    margin-top: 15px;
+    text-align: right;
+  }
+
+  &__retry {
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 10px;
+    background-color: $blue;
+    color: $white;
+  }
+}

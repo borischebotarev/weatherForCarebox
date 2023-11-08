@@ -12,20 +12,22 @@ import { map, catchError } from 'rxjs/operators';
 import { WeatherContext, WeatherSchema } from "./weather-machine.shema";
 import { WeatherEvent, WeatherFail, WeatherSuccess } from "./weather-machine.events";
 import { weatherMachineConfig } from "./weather-machine.config";
-import { WeatherService } from "@core/services/weather.service";
+import { WeatherService } from "../services/weather.service";
 
 @Injectable()
 export class WeatherMachine {
   weatherMachineOptions: Partial<MachineOptions<WeatherContext, WeatherEvent>> = {
     services: {
       getData: (_, event) => this.weatherService.getWeatherData().pipe(
-        map(data => new WeatherSuccess(data.timelines.daily)),
+        map(data => new WeatherSuccess(data.location.name, data.timelines.daily, data.timelines.hourly)),
         catchError(result => of(new WeatherFail(result.error)))
       ),
     },
     actions: {
       setData: assign((context, event) => ({
-        data: (event as WeatherSuccess).data
+        dataDaily: ((event as WeatherSuccess).dataDaily || []).slice(0, 5),
+        dataHourly: ((event as WeatherSuccess).dataHourly || []),
+        location: (event as WeatherSuccess).location,
       })),
       setErrors: assign((context, event) => ({
         errors: (event as WeatherFail).errors

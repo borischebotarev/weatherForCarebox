@@ -2,11 +2,9 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
 import { Observable } from "rxjs";
 import { environment } from "@environment";
-import { Weather } from "@core/interfaces/weather.interface";
+import { Weather } from "../_xstate/weather-machine.shema";
 
-@Injectable({
-  providedIn: 'root'
-})
+@Injectable()
 export class WeatherService {
   private readonly weatherUrl = environment.apiUrl + '/get-weather';
 
@@ -14,5 +12,8 @@ export class WeatherService {
 
   getWeatherData(): Observable<Weather> {
     return this.http.get<Weather>(this.weatherUrl);
+  }
+  getWeatherDetails(): Observable<Weather> {
+    return this.http.post<Weather>(this.weatherUrl + '-details', {start: 'now'});
   }
 }

@@ -1,0 +1,33 @@
+<div class="weather">
+
+  <ng-container *ngIf="loading$ | async; else data">
+    <app-spinner></app-spinner>
+  </ng-container>
+
+  <ng-template #data>
+    <ng-container *ngIf="data$ | async as data">
+      <h2 class="weather__location">Location: {{data.location}}</h2>
+      <ul class="weather__list">
+        <li class="weather__item" *ngFor="let day of data.dataDaily" (click)="showDetails(day.time)">
+          <span class="weather__date">{{day.time | date : 'shortDate'}}</span>
+          <span class="weather__info">Temperature: {{day.values.temperatureAvg}} C</span>
+          <span class="weather__info">Wind speed: {{day.values.windSpeedAvg}} m/s</span>
+          <span class="weather__info">Weather: {{day.values.weatherCodeMax | getWeatherText}}</span>
+          <span class="weather__small">Click to see details</span>
+        </li>
+      </ul>
+      <div class="weather__details" id="details">
+        <app-weather-details *ngIf="currentDate" [list]="data.dataHourly | filterByDate : currentDate"></app-weather-details>
+      </div>
+    </ng-container>
+
+    <ng-container *ngIf="errors$ | async as errors">
+      <ul>
+        <li *ngFor="let errorObj of errors | keyvalue">
+          {{errorObj.key}}: {{errorObj.value}}
+        </li>
+      </ul>
+      <button class="weather__retry" type="button" (click)="retry()">Retry</button>
+    </ng-container>
+  </ng-template>
+</div>

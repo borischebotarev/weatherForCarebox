@@ -10,7 +10,7 @@ export class WeatherLoading {
 
 export class WeatherSuccess {
   readonly type = 'SUCCESS';
-  constructor(public data: WeatherItem[]) {}
+  constructor(public location: string, public dataDaily: WeatherItem[], public dataHourly: WeatherItem[]) {}
 }
 
 export class WeatherRetry {

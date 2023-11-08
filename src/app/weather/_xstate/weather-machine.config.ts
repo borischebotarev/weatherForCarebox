@@ -11,7 +11,9 @@ export const weatherMachineConfig: MachineConfig<
   initial: 'init',
   predictableActionArguments: true,
   context: {
-    data: [],
+    location: '',
+    dataDaily: [],
+    dataHourly: [],
     errors: {},
   },
   states: {
