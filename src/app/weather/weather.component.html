@@ -1,0 +1,7 @@
+<div class="weather" *ngIf="weatherData$ | async as weatherData; else loading">
+  {{weatherData | json}}
+</div>
+<ng-template #loading>
+  <app-spinner></app-spinner>
+</ng-template>
+

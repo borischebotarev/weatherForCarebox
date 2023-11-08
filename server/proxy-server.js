@@ -15,6 +15,7 @@ app.use((req, res, next) => {
 // Route to access Tomorrow API
 app.get('/get-weather', async (req, res) => {
   try {
+    // TODO: move apikey to ENV configuration
     const tomorrowAPIResponse = await axios.get(`https://api.tomorrow.io/v4/weather/forecast?location=new%20york&apikey=oVkz4uu6iOYInii34Qlr9QJhHx7a5YWm`);
     res.json(tomorrowAPIResponse.data);
   } catch (error) {

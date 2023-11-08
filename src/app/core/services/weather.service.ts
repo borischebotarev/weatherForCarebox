@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
-import { environment } from "../../../environments/environment";
 import { Observable } from "rxjs";
+import { environment } from "@environment";
+import { IWeather } from "@core/interfaces/weather.interface";
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +12,7 @@ export class WeatherService {
 
   constructor(private http: HttpClient) {}
 
-  getWeatherData(): Observable<any> {
+  getWeatherData(): Observable<IWeather> {
     return this.http.get(this.weatherUrl);
   }
 }
