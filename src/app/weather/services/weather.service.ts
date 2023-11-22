@@ -13,7 +13,4 @@ export class WeatherService {
   getWeatherData(): Observable<Weather> {
     return this.http.get<Weather>(this.weatherUrl);
   }
-  getWeatherDetails(): Observable<Weather> {
-    return this.http.post<Weather>(this.weatherUrl + '-details', {start: 'now'});
-  }
 }

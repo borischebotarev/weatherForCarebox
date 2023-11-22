@@ -20,6 +20,14 @@
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
+      "i18n": {
+        "sourceLocale": "en",
+        "locales": {
+          "ru": {
+            "translation": "src/locale/messages.ru.xlf"
+          }
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -48,7 +56,17 @@
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
-              "namedChunks": true
+              "namedChunks": true,
+              "localize": ["en"]
+            },
+            "ru": {
+              "buildOptimizer": false,
+              "optimization": false,
+              "vendorChunk": true,
+              "extractLicenses": false,
+              "sourceMap": true,
+              "namedChunks": true,
+              "localize": ["ru"]
             },
             "production": {
               "budgets": [
@@ -88,9 +106,12 @@
             },
             "development": {
               "browserTarget": "weatherForCarebox:build:development"
+            },
+            "ru": {
+              "browserTarget": "weatherForCarebox:build:ru"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "ru"
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",

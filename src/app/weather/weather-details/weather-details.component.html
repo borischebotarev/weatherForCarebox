@@ -2,9 +2,9 @@
   <ul class="details__list">
     <li class="details__item" *ngFor="let item of list">
       <span class="weather__date">{{item.time | date : 'shortTime'}}</span>
-      <span class="weather__info">Temperature: {{item.values.temperature}} C</span>
-      <span class="weather__info">Wind speed: {{item.values.windSpeed}} m/s</span>
-      <span class="weather__info">Weather: {{item.values.weatherCode | getWeatherText}}</span>
+      <span class="weather__info"><ng-container i18n="@@temperature">Temperature</ng-container>: {{item.values.temperature}} C</span>
+      <span class="weather__info"><ng-container i18n="@@windSpeed">Wind speed</ng-container>: {{item.values.windSpeed}} <ng-container i18n="@@ms">m/s</ng-container></span>
+      <span class="weather__info"><ng-container i18n="@@weather">Weather</ng-container>: {{item.values.weatherCode | getWeatherText}}</span>
     </li>
   </ul>
 </div>

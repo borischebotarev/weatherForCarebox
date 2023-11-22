@@ -10,7 +10,7 @@ export class GetWeatherTextPipe implements PipeTransform {
     if (!value && value !== 0) {
       return `${value}`
     }
-    return codes[value] || 'weatherNotFound';
+    return codes[value] || $localize`weatherNotFound`;
   }
 
 }

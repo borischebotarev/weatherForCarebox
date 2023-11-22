@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="8685938679735199604" datatype="html">
+        <source>Weather Forecast ☀️</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/components/header/header.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4467323362722952678" datatype="html">
+        <source>Unknown</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9003963420865131789" datatype="html">
+        <source>Clear, Sunny</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4732604573423599000" datatype="html">
+        <source>Mostly Clear</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8690709642002863871" datatype="html">
+        <source>Partly Cloudy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8541681404015953160" datatype="html">
+        <source>Mostly Cloudy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="250692933063558427" datatype="html">
+        <source>Cloudy</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="269263127409147108" datatype="html">
+        <source>Partly Cloudy and Mostly Clear</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3582362560465801909" datatype="html">
+        <source>Light Fog</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5987767231326008763" datatype="html">
+        <source>Mostly Clear and Light Fog</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6106556586381128427" datatype="html">
+        <source>Partly Cloudy and Light Fog</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2509560180899221069" datatype="html">
+        <source>Mostly Cloudy and Light Fog</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5825743870333728857" datatype="html">
+        <source>Mostly Clear and Fog</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3923779801101608055" datatype="html">
+        <source>Partly Cloudy and Fog</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2530263444589731588" datatype="html">
+        <source>Mostly Cloudy and Fog</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7930901298278766854" datatype="html">
+        <source>Fog</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1353289635630264086" datatype="html">
+        <source>Partly Cloudy and Drizzle</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">18</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4155080233635571640" datatype="html">
+        <source>Mostly Clear and Drizzle</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">19</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8698275071542398401" datatype="html">
+        <source>Mostly Cloudy and Drizzle</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3907903480764446297" datatype="html">
+        <source>Drizzle</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5343946504400564260" datatype="html">
+        <source>Light Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7277895765365043716" datatype="html">
+        <source>Mostly Clear and Light Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2698511897133974285" datatype="html">
+        <source>Partly Cloudy and Light Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3361455510870188880" datatype="html">
+        <source>Mostly Cloudy and Light Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="521058278752346193" datatype="html">
+        <source>Mostly Clear and Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6784266649401302043" datatype="html">
+        <source>Partly Cloudy and Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8224150213679838750" datatype="html">
+        <source>Mostly Cloudy and Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2411598666152265477" datatype="html">
+        <source>Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2249313458410234581" datatype="html">
+        <source>Mostly Clear and Heavy Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2840050832376167068" datatype="html">
+        <source>Partly Cloudy and Heavy Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4377628128862870847" datatype="html">
+        <source>Mostly Cloudy and Heavy Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7824891092769034034" datatype="html">
+        <source>Heavy Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">33</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7453639354802669824" datatype="html">
+        <source>Mostly Clear and Flurries</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="400377249698021109" datatype="html">
+        <source>Partly Cloudy and Flurries</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7670955292543207603" datatype="html">
+        <source>Mostly Cloudy and Flurries</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8761448539986442680" datatype="html">
+        <source>Flurries</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5204722590850657425" datatype="html">
+        <source>Light Snow</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4958465099605103007" datatype="html">
+        <source>Mostly Clear and Light Snow</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">39</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8087748585325666445" datatype="html">
+        <source>Partly Cloudy and Light Snow</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="297062306089097025" datatype="html">
+        <source>Mostly Cloudy and Light Snow</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2455070026841632107" datatype="html">
+        <source>Drizzle and Light Snow</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2248876684272611772" datatype="html">
+        <source>Mostly Clear and Snow</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7965388432620796623" datatype="html">
+        <source>Partly Cloudy and Snow</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1585448431077988919" datatype="html">
+        <source>Mostly Cloudy and Snow</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2967536641774500467" datatype="html">
+        <source>Snow</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3489924995690205801" datatype="html">
+        <source>Heavy Snow</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2602007415815108449" datatype="html">
+        <source>Mostly Clear and Heavy Snow</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9023187885451597931" datatype="html">
+        <source>Partly Cloudy and Heavy Snow</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1898650376438607524" datatype="html">
+        <source>Mostly Cloudy and Heavy Snow</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">50</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4668581941956137649" datatype="html">
+        <source>Drizzle and Snow</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8625109361903523637" datatype="html">
+        <source>Rain and Snow</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8212946509842747502" datatype="html">
+        <source>Snow and Freezing Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2817861549802783341" datatype="html">
+        <source>Snow and Ice Pellets</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4024300356073984579" datatype="html">
+        <source>Freezing Drizzle</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7489341895831251935" datatype="html">
+        <source>Mostly Clear and Freezing drizzle</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5082495711483862478" datatype="html">
+        <source>Partly Cloudy and Freezing drizzle</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2712308908708933313" datatype="html">
+        <source>Mostly Cloudy and Freezing drizzle</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="307771377472335713" datatype="html">
+        <source>Drizzle and Freezing Drizzle</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">59</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3816699486834527106" datatype="html">
+        <source>Light Rain and Freezing Drizzle</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3542328127099942581" datatype="html">
+        <source>Mostly Clear and Light Freezing Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5633924306540375164" datatype="html">
+        <source>Partly Cloudy and Light Freezing Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5955438693525606666" datatype="html">
+        <source>Mostly Cloudy and Light Freezing Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7816008425208412787" datatype="html">
+        <source>Light Freezing Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="520154639683150302" datatype="html">
+        <source>Mostly Clear and Freezing Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7841848301334996268" datatype="html">
+        <source>Partly Cloudy and Freezing Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">66</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2223561178033043493" datatype="html">
+        <source>Mostly Cloudy and Freezing Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6427500648088511875" datatype="html">
+        <source>Freezing Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6004235912892609175" datatype="html">
+        <source>Drizzle and Freezing Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6823306757717936442" datatype="html">
+        <source>Light Rain and Freezing Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2953286186420199249" datatype="html">
+        <source>Rain and Freezing Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1787787923920968784" datatype="html">
+        <source>Mostly Clear and Heavy Freezing Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8567674564596566911" datatype="html">
+        <source>Partly Cloudy and Heavy Freezing Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">73</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2039120576026986083" datatype="html">
+        <source>Mostly Cloudy and Heavy Freezing Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="721374682909812619" datatype="html">
+        <source>Heavy Freezing Rain</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2084066432766933876" datatype="html">
+        <source>Mostly Clear and Light Ice Pellets</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">76</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9172681399847549733" datatype="html">
+        <source>Partly Cloudy and Light Ice Pellets</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8442234058161521919" datatype="html">
+        <source>Mostly Cloudy and Light Ice Pellets</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3313540761291034874" datatype="html">
+        <source>Light Ice Pellets</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">79</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4773447967213443947" datatype="html">
+        <source>Mostly Clear and Ice Pellets</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">80</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="309327074660991136" datatype="html">
+        <source>Partly Cloudy and Ice Pellets</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">81</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2440276534358890264" datatype="html">
+        <source>Mostly Cloudy and Ice Pellets</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">82</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1606659940733621157" datatype="html">
+        <source>Ice Pellets</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8393805645379416260" datatype="html">
+        <source>Drizzle and Ice Pellets</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8376705372326037906" datatype="html">
+        <source>Freezing Rain and Ice Pellets</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6045876663128814857" datatype="html">
+        <source>Light Rain and Ice Pellets</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2658997174611521393" datatype="html">
+        <source>Rain and Ice Pellets</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="981916110463172781" datatype="html">
+        <source>Freezing Rain and Heavy Ice Pellets</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1679336089672421196" datatype="html">
+        <source>Mostly Clear and Heavy Ice Pellets</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6721138692594771120" datatype="html">
+        <source>Partly Cloudy and Heavy Ice Pellets</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5431665628439163186" datatype="html">
+        <source>Mostly Cloudy and Heavy Ice Pellets</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">91</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1114839862259896112" datatype="html">
+        <source>Heavy Ice Pellets</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7008388823760750789" datatype="html">
+        <source>Mostly Clear and Thunderstorm</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8832060890013595143" datatype="html">
+        <source>Partly Cloudy and Thunderstorm</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1031341431147260910" datatype="html">
+        <source>Mostly Cloudy and Thunderstorm</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9190377678281512362" datatype="html">
+        <source>Thunderstorm</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/core/utils/weather-codes.ts</context>
+          <context context-type="linenumber">96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4232073803426913719" datatype="html">
+        <source>weatherNotFound</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather/pipes/get-weather-text.pipe.ts</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="temperature" datatype="html">
+        <source>Temperature</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather/weather-details/weather-details.component.html</context>
+          <context context-type="linenumber">5</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather/weather/weather.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="windSpeed" datatype="html">
+        <source>Wind speed</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather/weather-details/weather-details.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather/weather/weather.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ms" datatype="html">
+        <source>m/s</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather/weather-details/weather-details.component.html</context>
+          <context context-type="linenumber">6</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather/weather/weather.component.html</context>
+          <context context-type="linenumber">14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="weather" datatype="html">
+        <source>Weather</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather/weather-details/weather-details.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather/weather/weather.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="471816275243265264" datatype="html">
+        <source>Location</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather/weather/weather.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3188545192603026552" datatype="html">
+        <source>Click to see details</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather/weather/weather.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7934833136974560675" datatype="html">
+        <source>Retry</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/weather/weather/weather.component.html</context>
+          <context context-type="linenumber">30,31</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

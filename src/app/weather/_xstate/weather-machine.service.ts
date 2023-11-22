@@ -24,11 +24,15 @@ export class WeatherMachine {
       ),
     },
     actions: {
-      setData: assign((context, event) => ({
-        dataDaily: ((event as WeatherSuccess).dataDaily || []).slice(0, 5),
-        dataHourly: ((event as WeatherSuccess).dataHourly || []),
-        location: (event as WeatherSuccess).location,
-      })),
+      setData: assign((context, event) => {
+        const hasData = !!((event as WeatherSuccess).dataDaily || []).length;
+        const firstIndex = hasData && new Date((event as WeatherSuccess).dataDaily[0].time).getDate() === new Date().getDate() ? 0 : 1;
+        return ({
+          dataDaily: ((event as WeatherSuccess).dataDaily || []).slice(firstIndex, firstIndex + 5),
+          dataHourly: ((event as WeatherSuccess).dataHourly || []),
+          location: (event as WeatherSuccess).location,
+        })
+      }),
       setErrors: assign((context, event) => ({
         errors: (event as WeatherFail).errors
       })),

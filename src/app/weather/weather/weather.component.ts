@@ -44,6 +44,6 @@ export class WeatherComponent implements OnInit {
 
   showDetails(date: string) {
     this.currentDate = date;
-    document.getElementById('details')?.scrollIntoView({ behavior: "smooth" });
+    // document.getElementById('details')?.scrollIntoView({ behavior: "smooth" });
   }
 }
