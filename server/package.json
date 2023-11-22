@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "start": "node proxy-server.js",
+    "icons": "node collect-icons.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",

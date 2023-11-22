@@ -19,6 +19,10 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  background-image: url('assets/images/NY.jpeg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 
   main {
     flex-grow: 1;

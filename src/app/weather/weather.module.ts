@@ -7,13 +7,15 @@ import { GetWeatherTextPipe } from './pipes/get-weather-text.pipe';
 import { WeatherDetailsComponent } from './weather-details/weather-details.component';
 import { FilterByDatePipe } from './pipes/filter-by-date.pipe';
 import { WeatherService } from "./services/weather.service";
+import { GetWeatherIconPipe } from './pipes/get-weather-icon.pipe';
 
 @NgModule({
   declarations: [
     WeatherComponent,
     GetWeatherTextPipe,
     WeatherDetailsComponent,
-    FilterByDatePipe
+    FilterByDatePipe,
+    GetWeatherIconPipe
   ],
   imports: [
     CommonModule,
