@@ -4,9 +4,10 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "build": "ng build --localize --configuration production",
+    "watch": "ng build --localize --watch --configuration production",
+    "test": "ng test",
+    "deploy": "rm -rf .firebase && npm run build && firebase deploy --only hosting:weathercarebox"
   },
   "private": true,
   "dependencies": {
