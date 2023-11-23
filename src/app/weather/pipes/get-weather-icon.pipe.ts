@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import { weatherIconCodes } from "@core/utils/weather-codes";
+import { weatherIconCodes } from "../../utils/weather-codes";
 
 @Pipe({
   name: 'getWeatherIcon'

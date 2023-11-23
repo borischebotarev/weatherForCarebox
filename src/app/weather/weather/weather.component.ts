@@ -4,7 +4,7 @@ import {
   WeatherInit,
   WeatherRetry
 } from "../_xstate/weather-machine.events";
-import { filter, map } from "rxjs/operators";
+import { filter, map, tap } from "rxjs/operators";
 import { Observable } from "rxjs";
 import { Errors, WeatherItem } from "../_xstate/weather-machine.shema";
 
@@ -15,7 +15,7 @@ import { Errors, WeatherItem } from "../_xstate/weather-machine.shema";
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class WeatherComponent implements OnInit {
-  public currentDate: string = '';
+  public currentDayWeather!: WeatherItem;
   readonly loading$: Observable<boolean>;
   readonly data$: Observable<{ dataDaily: WeatherItem[], dataHourly: WeatherItem[], location: string }>;
   readonly errors$: Observable<Errors>;
@@ -26,7 +26,8 @@ export class WeatherComponent implements OnInit {
     );
     this.data$ = this.weatherMachine.weatherState$.pipe(
       filter(state => state.matches('success')),
-      map(state => state.context)
+      map(state => state.context),
+      tap(data => this.currentDayWeather = data.dataDaily[0])
     );
     this.errors$ = this.weatherMachine.weatherState$.pipe(
       filter(state => state.matches('failure')),
@@ -42,8 +43,7 @@ export class WeatherComponent implements OnInit {
     this.weatherMachine.send(new WeatherRetry());
   }
 
-  showDetails(date: string) {
-    this.currentDate = date;
-    // document.getElementById('details')?.scrollIntoView({ behavior: "smooth" });
+  showDetails(day: WeatherItem) {
+    this.currentDayWeather = day;
   }
 }

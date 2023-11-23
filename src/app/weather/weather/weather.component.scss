@@ -1,44 +1,78 @@
 @import "src/assets/styles/variables";
 
 .weather {
-  &__location {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
-  &__list {
+  &-wr {
     display: flex;
-    gap: 10px;
-    justify-content: space-around;
-    margin-bottom: 20px;
+    justify-content: space-between;
     @include media-tablet-down() {
       flex-direction: column;
     }
   }
+  &__block {
+    width: calc(50% - 10px);
+    @include media-tablet-down() {
+      width: 100%;
+    }
 
-  &__item {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    border: 1px solid $blue;
-    border-radius: 5px;
-    transition: box-shadow 0.2s linear;
-    cursor: pointer;
-    &:hover {
-      box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+    &--main {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 15px;
+
+      border-radius: 10px;
+      background-color: rgba(0,0,0,0.5);
+      @include media-tablet-down() {
+        margin-bottom: 15px;
+      }
     }
   }
+  &__location {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
 
-  &__date {
-    font-weight: 600;
+    @include media-tablet-down() {
+      font-size: 24px;
+    }
   }
+  &__point {
+    width: 36px;
+    height: 36px;
+    position: relative;
+    top: 3px;
+    margin-right: 5px;
 
-  &__small {
-    font-size: 12px;
-    margin-top: 15px;
-    text-align: right;
+    @include media-tablet-down() {
+      width: 20px;
+      height: 20px;
+    }
   }
+  &__info {
+    font-size: 28px;
+    text-align: center;
+    &--time {
+      font-style: italic;
+      opacity: 0.6;
+    }
 
+    @include media-tablet-down() {
+      font-size: 18px;
+    }
+  }
+  &__icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+    position: relative;
+    top: 3px;
+
+    @include media-tablet-down() {
+      width: 18px;
+      height: 18px;
+    }
+  }
   &__retry {
     padding: 5px;
     font-size: 16px;
@@ -46,8 +80,9 @@
     background-color: $blue;
     color: $white;
   }
-  &__icon {
-    width: 24px;
-    height: 24px;
+  &__details {
+    & + & {
+      margin-top: 15px;
+    }
   }
 }

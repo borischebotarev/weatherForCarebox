@@ -9,8 +9,8 @@
 html,
 body {
   min-height: 100vh;
-  color: $black;
-  background-color: $white;
+  color: $white;
+  background-color: $black;
   @include H4;
 }
 
@@ -31,12 +31,32 @@ body {
     padding: 15px 0;
   }
 }
+.surface {
+  padding: 20px;
+  margin: 50px 0;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+
+  @include media-tablet-down() {
+    padding: 0;
+    background-color: transparent;
+    box-shadow: none;
+  }
+}
 
 .wr-section {
+  flex-grow: 1;
   max-width: $max-width + $screen-gap * 2;
   margin: 0 auto;
   padding: 0 $screen-gap;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   @include media-tablet-down {
     padding: 0 $screen-gap-mobile;
   }

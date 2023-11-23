@@ -7,7 +7,14 @@ import { WeatherItem } from "../_xstate/weather-machine.shema";
 export class FilterByDatePipe implements PipeTransform {
 
   transform(list: WeatherItem[], selectedDate: string): WeatherItem[] {
-    return list.filter(item => new Date(item.time).getDate() === new Date(selectedDate).getDate());
+    const targetDate = new Date(selectedDate);
+
+    return list.filter(item => {
+      const itemDate = new Date(item.time);
+      return itemDate.getFullYear() === targetDate.getFullYear() &&
+        itemDate.getMonth() === targetDate.getMonth() &&
+        itemDate.getDate() === targetDate.getDate();
+    });
   }
 
 }

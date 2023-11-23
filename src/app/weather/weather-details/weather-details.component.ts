@@ -1,4 +1,4 @@
-import { Component, ChangeDetectionStrategy, Input } from '@angular/core';
+import { Component, ChangeDetectionStrategy, Input, Output, EventEmitter } from '@angular/core';
 import { WeatherItem } from "../_xstate/weather-machine.shema";
 
 @Component({
@@ -9,4 +9,13 @@ import { WeatherItem } from "../_xstate/weather-machine.shema";
 })
 export class WeatherDetailsComponent {
   @Input() list: WeatherItem[] = []
+  @Input() currentDay?: string;
+  @Input() mode: 'day' | 'time' = 'day';
+  @Output() selected = new EventEmitter<WeatherItem>();
+
+  setCurrentItem(day: WeatherItem) {
+    if (this.mode === 'day') {
+      this.selected.next(day);
+    }
+  }
 }
