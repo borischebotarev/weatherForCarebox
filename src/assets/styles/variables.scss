@@ -116,3 +116,22 @@ $grey: #7891A8;
   line-height: 1.2;
   letter-spacing: normal;
 }
+
+@mixin scroll {
+  &::-webkit-scrollbar {
+    height: 3px;
+    border-radius: 8px;
+  }
+  &::-webkit-scrollbar-track {
+    height: 3px;
+    background: $grey;
+  }
+  &::-webkit-scrollbar-thumb {
+    height: 3px;
+    background: $white;
+    border-radius: 8px;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: $white;
+  }
+}
